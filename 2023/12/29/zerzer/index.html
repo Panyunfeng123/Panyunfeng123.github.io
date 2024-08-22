@@ -88,7 +88,9 @@
         
     
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" class="aplayer-style-marker">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
 
   
   <!-- 预加载动画 -->
@@ -598,6 +600,27 @@
     <article class="post post-detail">
       <div class="post-content">
         <p><audio src="D:\Hexo\source\_posts\zerzer\zerzer.mp3"></audio></p>
+
+        <div id="aplayer-LrUzvYNV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-LrUzvYNV"),
+            narrow: false,
+            autoplay: false,
+            showlrc: 2,
+            music: {
+              title: "Zerzer",
+              author: "Zerzer",
+              url: "zerzer.mp3",
+              pic: "/2023/12/29/zerzer/1.jpg",
+              lrc: "zerzer.txt"
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 
       </div>
       <div class="post-tags-categories">
