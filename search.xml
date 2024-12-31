@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>元旦快乐</title>
+      <link href="/2024/12/31/20241231-%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/"/>
+      <url>/2024/12/31/20241231-%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p><strong>2024接近尾声，2025的钟声即将敲响，容许我在这里提前道一句</strong></p><h3 id="元旦快乐！"><a href="#元旦快乐！" class="headerlink" title="元旦快乐！"></a><strong>元旦快乐！</strong></h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>纪中军训记</title>
       <link href="/2024/09/07/20240907-%E7%BA%AA%E4%B8%AD%E5%86%9B%E8%AE%AD%E8%AE%B0/"/>
       <url>/2024/09/07/20240907-%E7%BA%AA%E4%B8%AD%E5%86%9B%E8%AE%AD%E8%AE%B0/</url>
@@ -60,7 +73,7 @@
       <link href="/2023/12/29/zerzer/"/>
       <url>/2023/12/29/zerzer/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>        <div id="aplayer-IuHfVpAO" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-IuHfVpAO"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "Zerzer",              author: "Zerzer",              url: "zerzer.mp3",              pic: "/2023/12/29/zerzer/1.jpg",              lrc: "zerzer.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p><audio src="D:\Hexo\source\_posts\zerzer\zerzer.mp3"></audio></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>        <div id="aplayer-RUketYxv" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-RUketYxv"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "Zerzer",              author: "Zerzer",              url: "zerzer.mp3",              pic: "/2023/12/29/zerzer/1.jpg",              lrc: "zerzer.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p><audio src="D:\Hexo\source\_posts\zerzer\zerzer.mp3"></audio></p>]]></content>
       
       
       
