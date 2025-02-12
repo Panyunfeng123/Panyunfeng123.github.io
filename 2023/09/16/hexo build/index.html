@@ -76,13 +76,9 @@
         
             
         
-            
-        
     
     <!-- import script -->
     
-        
-            
         
             
         
@@ -691,6 +687,23 @@
 
 
 
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/img/image_20240915101215938621.jpg" class="lazyload placeholder" data-srcset="/img/image_20240915101215938621.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2022/02/12/2025.2.12%E5%BC%80%E5%AD%A6%E5%89%8D%E5%A4%95/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">2025.2.12开学前夕</div>
+      </div>
+      <!-- <div class="content">
+        *要开学啦！！！！！！！我不要开学！！！！！！咕咕咕地鸽了一个寒假，现在你终于知道写点东西了(人格分离知道分班后，所有群
+      </div> -->
+    </a>
+  </div>
+
 </div>
 
     
@@ -722,8 +735,9 @@
 
   <div id="myComment">
     
-      <div id="gitment-container"></div>
-
+      <section id="waline-box">
+  <div id="waline-comment"></div>
+</section>
     
   </div>
 
@@ -1825,68 +1839,33 @@
 <!-- 评论所需js -->
 
   
-    <script type="text/javascript">
-  var utteranceCommon = {};
-
-  function check_utterance() {
-    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
-    if (isDark) {
-      utteranceCommon.Theme = 'github-dark';
-    } else {
-      utteranceCommon.Theme = 'github-light';
+    <script src="/js/waline/waline.min.js"></script>
+<script type="text/javascript">
+  comment_el = '#waline-comment';
+  var waline;
+  loadWaline = function () {
+    if (!$(comment_el).length) {
+      return;
     }
+    var walineEmoji = 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo';
+    walineEmoji = walineEmoji.split(',')
 
-    return document.getElementById("gitment-container");
-  }
-  comment_el = '#gitment-container';
-  load_utterance = function () {
-    if ($(comment_el).length) {
-      // 匿名函数，防止污染全局变量
-      const HEAD = check_utterance();
-
-      var utterances = document.createElement('script');
-      utterances.type = 'text/javascript';
-      utterances.async = true;
-      utterances.setAttribute('issue-term', 'pathname')
-      utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
-      utterances.crossorigin = 'anonymous';
-      utterances.src = 'https://utteranc.es/client.js';
-      // content 是要插入评论的地方
-      document.getElementById('gitment-container').appendChild(utterances);
-
-    }
-  }
-
-  function dark_utterance() {
-    const HEAD = check_utterance();
-    if (!HEAD) return;
-    const message = {
-      type: 'set-theme',
-      theme: utteranceCommon.Theme
-    };
-    const utteranceIframe = document.querySelector('iframe');
-    utteranceIframe.contentWindow.postMessage(message, 'https://utteranc.es');
-  }
-
-  $(document).ready(load_utterance);
-  document.addEventListener('pjax:complete', function () {
-    load_utterance();
-  });
-
-  $('.dark').click(function () {
-    setTimeout(() => {
-      dark_utterance();
+    waline = Waline({
+      el: comment_el,
+      serverURL: 'https://panyunfeng123waline.netlify.app/.netlify/functions/comment',
+      lang: 'zh-CN',
+      vistor: '',
+      emoji: walineEmoji,
+      login: 'enable',
+      pageSize: '10',
+      copyright: true
     });
-  })
-
-</script>
-
-<style>
-  .utterances {
-    max-width: inherit !important;
   }
-</style>
+  $(document).ready(loadWaline);
+  document.addEventListener('pjax:complete', function () {
+    loadWaline();
+  });
+</script>
   
 
 

@@ -73,7 +73,7 @@
       <link href="/2023/12/29/zerzer/"/>
       <url>/2023/12/29/zerzer/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>        <div id="aplayer-RUketYxv" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-RUketYxv"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "Zerzer",              author: "Zerzer",              url: "zerzer.mp3",              pic: "/2023/12/29/zerzer/1.jpg",              lrc: "zerzer.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p><audio src="D:\Hexo\source\_posts\zerzer\zerzer.mp3"></audio></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>        <div id="aplayer-IOnyZqNy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-IOnyZqNy"),            narrow: false,            autoplay: false,            showlrc: 2,            music: {              title: "Zerzer",              author: "Zerzer",              url: "zerzer.mp3",              pic: "/2023/12/29/zerzer/1.jpg",              lrc: "zerzer.txt"            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p><audio src="D:\Hexo\source\_posts\zerzer\zerzer.mp3"></audio></p>]]></content>
       
       
       
@@ -139,6 +139,19 @@
       <url>/2023/09/16/hexo%20build/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h3 id="Hexo-博客的艰难部署之旅"><a href="#Hexo-博客的艰难部署之旅" class="headerlink" title="Hexo 博客的艰难部署之旅"></a>Hexo 博客的艰难部署之旅</h3><p><em><strong>上周打算换一个博客，就选了曾经装过的Hexo</strong></em></p><p><em><strong>结果刚安装就出现错误，Hexo一直装不进去</strong></em></p><p><em><strong>后来发现是npm有问题，下了个cnpm再装才好（装了不下10次）</strong></em></p><p><em><strong>然后远程到仓库又把分支写错（main -&gt; master）</strong></em></p><p><em><strong>改回来以后想着去装个Typora</strong></em></p><p><em><strong>装了免费版发现有强制更新</strong></em></p><p><em><strong>干掉强制更新以后觉得版本太低了想换个版本</strong></em></p><p><em><strong>结果找了四五个版本都破解不了</strong></em></p><p><em><strong>什么替换apsr认证，添加winmm.dll都试了</strong></em></p><p><em><strong>结果一不小心终于破解好了</strong></em></p><p><em><strong>然后把Hexo主题换成了bamboo</strong></em></p><p><em><strong>结果调配置又调了一上午</strong></em></p><p><em><strong>调完发现文章图片显示不出来（本来换博客就是为了显示图片）</strong></em></p><p><em><strong>然后修了好久发现文件名好像不能有中文</strong></em></p><p><em><strong>现在终于好了 qwq</strong></em></p><p><em><strong>来自Panyunfeng 在22:30 的抱怨</strong></em></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2025.2.12开学前夕</title>
+      <link href="/2022/02/12/2025.2.12%E5%BC%80%E5%AD%A6%E5%89%8D%E5%A4%95/"/>
+      <url>/2022/02/12/2025.2.12%E5%BC%80%E5%AD%A6%E5%89%8D%E5%A4%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="要开学啦！！！！！！！"><a href="#要开学啦！！！！！！！" class="headerlink" title="*要开学啦！！！！！！！"></a>*<em>要开学啦！！！！！！！</em></h2><h2 id="我不要开学！！！！！！"><a href="#我不要开学！！！！！！" class="headerlink" title="我不要开学！！！！！！"></a>我不要开学！！！！！！</h2><h4 id="咕咕咕地鸽了一个寒假，现在你终于知道写点东西了-人格分离"><a href="#咕咕咕地鸽了一个寒假，现在你终于知道写点东西了-人格分离" class="headerlink" title="咕咕咕地鸽了一个寒假，现在你终于知道写点东西了(人格分离"></a><strong>咕咕咕地鸽了一个寒假，现在你终于知道写点东西了(人格分离</strong></h4><h4 id="知道分班后，所有群和我的脑子就像放鞭炮一样炸开了！"><a href="#知道分班后，所有群和我的脑子就像放鞭炮一样炸开了！" class="headerlink" title="知道分班后，所有群和我的脑子就像放鞭炮一样炸开了！"></a><strong>知道分班后，所有群和我的脑子就像放鞭炮一样炸开了！</strong></h4><h4 id="回来在更！-又挖大坑"><a href="#回来在更！-又挖大坑" class="headerlink" title="回来在更！(又挖大坑"></a><strong>回来在更！(又挖大坑</strong></h4>]]></content>
       
       
       
